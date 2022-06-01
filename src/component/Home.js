@@ -5,6 +5,7 @@ import Box from "./Box";
 import Navbar from "./Navbar"
 import { Container, Row, Col } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
+import App from "../firebase";
 
 
 
