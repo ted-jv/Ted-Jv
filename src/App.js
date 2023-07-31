@@ -14,15 +14,16 @@ import {
   doc,
   deleteDoc,
 } from "firebase/firestore";
+import { loadVocabularyFB } from "./redux/reducer/reducer";
 
 function App() {
   // 여기는 컬렉션 여기서 추가하기
 
-  React.useEffect(async () => {
-    console.log(db);
+  // React.useEffect(async () => {
+  //   console.log(db);
 
-    addDoc(collection(db, "bucket"), { text: "new", abc: true });
-  }, []);
+  //   addDoc(collection(db, "bucket"), { text: "new", abc: true });
+  // }, []);
 
   // // 여기는 삭제하기
 
